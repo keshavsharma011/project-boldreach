@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boldreach Consultancy</title>
+    <link rel="stylesheet" href="./brand.css">
+    <link rel="stylesheet" href="./form.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <!-- Poppins Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet" />
+    <!-- Monsterrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="Icon" href="./Images/Boldreach-logo/favicon.ico" sizes="64x64" type="image/png">
+</head>
+<body style="background-color: #000000;" class="font-[Poppins]">
+    <header>
+        <nav class="bg-black fixed mx-auto top-0 left-0 w-full z-50" style="width: 100%;">
+            <div class="flex flex-wrap items-center justify-between p-4 mx-auto w-full" style="width: 95%;">
+                <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./Images/Boldreach-logo/boldreach_logo.png" class="h-12" alt="boldreach_logo Logo" />
+                    <span
+                        class="tracking-wide font-bold font-[Montserrat] text-xl md:text-2xl lg:text-3xl text-white">Boldreach</span>
+                </a>
+                <button data-collapse-toggle="navbar-dropdown" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none"
+                    aria-controls="navbar-dropdown" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent h-full w-full rounded-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 md:backdrop-blur-none md:bg-transparent">
+                        <li>
+                            <a href="./index.html"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] block py-2 px-3 text-gray-900 rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded md:bg-transparent md:text-gray-900 md:border-0 md:p-0 md:w-auto dark:text-white dark:border-gray-700 block py-2 px-3 text-gray-900 rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                                aria-expanded="false">
+                                Contact
+                                <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg>
+                            </button>
+                            <!-- Dropdown menu -->
+                            <div id="dropdownNavbar"
+                                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                    aria-labelledby="dropdownLargeButton">
+                                    <li>
+                                        <a href="./form.html"
+                                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Enquire
+                                            Now</a>
+                                    </li>
+                                </ul>
+                                <div class="py-1">
+                                    <a href="https://maps.app.goo.gl/vpCMQYfpXiFhS3vs5"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Office</a>
+                                </div>
+                            </div>
+                            <!-- end -->
+                        </li>
+                        <li>
+                            <a href="./index.html#services"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] block py-2 px-3 text-gray-900 rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Services</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#work"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] block py-2 px-3 text-gray-900 rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Work</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#About"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] block py-2 px-3 text-gray-900 rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-gray-900 md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="relative inset-0 bg-cover bg-center parallax w-full h-full mt-20"
+    style="background-image: url('https://i.postimg.cc/dVP10hBQ/contact.png');">
+    <div
+        class="max-w-5xl max-lg:max-w-3xl mx-auto bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-2xl my-6">
+        <div class="text-center px-6">
+            <h2 class="text-white text-3xl font-extrabold">Interested....</h2>
+            <p class="text-sm text-white mt-4">Have some big idea or brand to develop and need help?</p>
+        </div>
+
+        <div
+            class="grid lg:grid-cols-3 items-start gap-4 p-2 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-lg mt-12">
+
+            <div class="bg-[#011c2b] rounded-lg p-6 h-full max-lg:order-1">
+                <h2 class="text-xl text-white">Contact Information</h2>
+                <p class="text-sm text-white mt-4">Have some big idea or brand to develop and need help?</p>
+
+                <ul class="mt-16 space-y-8">
+                    <li class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff'
+                            viewBox="0 0 479.058 479.058">
+                            <path
+                                d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                                data-original="#000000" />
+                        </svg>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=boldreach.in@gmail.com" target="_blank" class="text-white text-sm text-gray-500 ml-4">
+                            boldreach.in@gmail.com
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff'
+                            viewBox="0 0 482.6 482.6">
+                            <path
+                                d="M98.339 320.8c47.6 56.9 104.9 101.7 170.3 133.4 24.9 11.8 58.2 25.8 95.3 28.2 2.3.1 4.5.2 6.8.2 24.9 0 44.9-8.6 61.2-26.3.1-.1.3-.3.4-.5 5.8-7 12.4-13.3 19.3-20 4.7-4.5 9.5-9.2 14.1-14 21.3-22.2 21.3-50.4-.2-71.9l-60.1-60.1c-10.2-10.6-22.4-16.2-35.2-16.2-12.8 0-25.1 5.6-35.6 16.1l-35.8 35.8c-3.3-1.9-6.7-3.6-9.9-5.2-4-2-7.7-3.9-11-6-32.6-20.7-62.2-47.7-90.5-82.4-14.3-18.1-23.9-33.3-30.6-48.8 9.4-8.5 18.2-17.4 26.7-26.1 3-3.1 6.1-6.2 9.2-9.3 10.8-10.8 16.6-23.3 16.6-36s-5.7-25.2-16.6-36l-29.8-29.8c-3.5-3.5-6.8-6.9-10.2-10.4-6.6-6.8-13.5-13.8-20.3-20.1-10.3-10.1-22.4-15.4-35.2-15.4-12.7 0-24.9 5.3-35.6 15.5l-37.4 37.4c-13.6 13.6-21.3 30.1-22.9 49.2-1.9 23.9 2.5 49.3 13.9 80 17.5 47.5 43.9 91.6 83.1 138.7zm-72.6-216.6c1.2-13.3 6.3-24.4 15.9-34l37.2-37.2c5.8-5.6 12.2-8.5 18.4-8.5 6.1 0 12.3 2.9 18 8.7 6.7 6.2 13 12.7 19.8 19.6 3.4 3.5 6.9 7 10.4 10.6l29.8 29.8c6.2 6.2 9.4 12.5 9.4 18.7s-3.2 12.5-9.4 18.7c-3.1 3.1-6.2 6.3-9.3 9.4-9.3 9.4-18 18.3-27.6 26.8l-.5.5c-8.3 8.3-7 16.2-5 22.2.1.3.2.5.3.8 7.7 18.5 18.4 36.1 35.1 57.1 30 37 61.6 65.7 96.4 87.8 4.3 2.8 8.9 5 13.2 7.2 4 2 7.7 3.9 11 6 .4.2.7.4 1.1.6 3.3 1.7 6.5 2.5 9.7 2.5 8 0 13.2-5.1 14.9-6.8l37.4-37.4c5.8-5.8 12.1-8.9 18.3-8.9 7.6 0 13.8 4.7 17.7 8.9l60.3 60.2c12 12 11.9 25-.3 37.7-4.2 4.5-8.6 8.8-13.3 13.3-7 6.8-14.3 13.8-20.9 21.7-11.5 12.4-25.2 18.2-42.9 18.2-1.7 0-3.5-.1-5.2-.2-32.8-2.1-63.3-14.9-86.2-25.8-62.2-30.1-116.8-72.8-162.1-127-37.3-44.9-62.4-86.7-79-131.5-10.3-27.5-14.2-49.6-12.6-69.7z"
+                                data-original="#000000"></path>
+                        </svg>
+                        <a href="tel:+919318319231" class="text-white text-sm text-gray-500 ml-4">
+                            +917982719381
+                        </a>
+                    </li>
+                    <li class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff'
+                            viewBox="0 0 368.16 368.16">
+                            <path
+                                d="M184.08 0c-74.992 0-136 61.008-136 136 0 24.688 11.072 51.24 11.536 52.36 3.576 8.488 10.632 21.672 15.72 29.4l93.248 141.288c3.816 5.792 9.464 9.112 15.496 9.112s11.68-3.32 15.496-9.104l93.256-141.296c5.096-7.728 12.144-20.912 15.72-29.4.464-1.112 11.528-27.664 11.528-52.36 0-74.992-61.008-136-136-136zM293.8 182.152c-3.192 7.608-9.76 19.872-14.328 26.8l-93.256 141.296c-1.84 2.792-2.424 2.792-4.264 0L88.696 208.952c-4.568-6.928-11.136-19.2-14.328-26.808-.136-.328-10.288-24.768-10.288-46.144 0-66.168 53.832-120 120-120s120 53.832 120 120c0 21.408-10.176 45.912-10.28 46.152z"
+                                data-original="#000000"></path>
+                            <path
+                                d="M184.08 64.008c-39.704 0-72 32.304-72 72s32.296 72 72 72 72-32.304 72-72-32.296-72-72-72zm0 128c-30.872 0-56-25.12-56-56s25.128-56 56-56 56 25.12 56 56-25.128 56-56 56z"
+                                data-original="#000000"></path>
+                        </svg>
+                        <a href="javascript:void(0)" class="text-white text-sm text-gray-500 ml-4">
+                            166, Sector 9, Gurugram, Haryana
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="flex flex-wrap gap-4 mt-16">
+                    <li
+                        class="bg-gray-800 hover:bg-gray-900 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <a href="https://m.facebook.com/100094887142572" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M6.812 13.937H9.33v9.312c0 .414.335.75.75.75l4.007.001a.75.75 0 0 0 .75-.75v-9.312h2.387a.75.75 0 0 0 .744-.657l.498-4a.75.75 0 0 0-.744-.843h-2.885c.113-2.471-.435-3.202 1.172-3.202 1.088-.13 2.804.421 2.804-.75V.909a.75.75 0 0 0-.648-.743A26.926 26.926 0 0 0 15.071 0c-7.01 0-5.567 7.772-5.74 8.437H6.812a.75.75 0 0 0-.75.75v4c0 .414.336.75.75.75zm.75-3.999h2.518a.75.75 0 0 0 .75-.75V6.037c0-2.883 1.545-4.536 4.24-4.536.878 0 1.686.043 2.242.087v2.149c-.402.205-3.976-.884-3.976 2.697v2.755c0 .414.336.75.75.75h2.786l-.312 2.5h-2.474a.75.75 0 0 0-.75.75V22.5h-2.505v-9.312a.75.75 0 0 0-.75-.75H7.562z"
+                                    data-original="#000000" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li
+                        class="bg-gray-800 hover:bg-gray-900 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <a href="https://www.linkedin.com/company/boldreach-consultancy/?viewAsMember=true" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
+                                viewBox="0 0 511 512">
+                                <path
+                                    d="M111.898 160.664H15.5c-8.285 0-15 6.719-15 15V497c0 8.285 6.715 15 15 15h96.398c8.286 0 15-6.715 15-15V175.664c0-8.281-6.714-15-15-15zM96.898 482H30.5V190.664h66.398zM63.703 0C28.852 0 .5 28.352.5 63.195c0 34.852 28.352 63.2 63.203 63.2 34.848 0 63.195-28.352 63.195-63.2C126.898 28.352 98.551 0 63.703 0zm0 96.395c-18.308 0-33.203-14.891-33.203-33.2C30.5 44.891 45.395 30 63.703 30c18.305 0 33.195 14.89 33.195 33.195 0 18.309-14.89 33.2-33.195 33.2zm289.207 62.148c-22.8 0-45.273 5.496-65.398 15.777-.684-7.652-7.11-13.656-14.942-13.656h-96.406c-8.281 0-15 6.719-15 15V497c0 8.285 6.719 15 15 15h96.406c8.285 0 15-6.715 15-15V320.266c0-22.735 18.5-41.23 41.235-41.23 22.734 0 41.226 18.495 41.226 41.23V497c0 8.285 6.719 15 15 15h96.403c8.285 0 15-6.715 15-15V302.066c0-79.14-64.383-143.523-143.524-143.523zM466.434 482h-66.399V320.266c0-39.278-31.953-71.23-71.226-71.23-39.282 0-71.239 31.952-71.239 71.23V482h-66.402V190.664h66.402v11.082c0 5.77 3.309 11.027 8.512 13.524a15.01 15.01 0 0 0 15.875-1.82c20.313-16.294 44.852-24.907 70.953-24.907 62.598 0 113.524 50.926 113.524 113.523zm0 0"
+                                    data-original="#000000" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li
+                        class="bg-gray-800 hover:bg-gray-900 h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                        <a href="https://www.instagram.com/boldreach.in/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
+                                viewBox="0 0 24 24">
+                                <path
+                                    d="M12 9.3a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm0-1.8a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm5.85-.225a1.125 1.125 0 1 1-2.25 0 1.125 1.125 0 0 1 2.25 0ZM12 4.8c-2.227 0-2.59.006-3.626.052-.706.034-1.18.128-1.618.299a2.59 2.59 0 0 0-.972.633 2.601 2.601 0 0 0-.634.972c-.17.44-.265.913-.298 1.618C4.805 9.367 4.8 9.714 4.8 12c0 2.227.006 2.59.052 3.626.034.705.128 1.18.298 1.617.153.392.333.674.632.972.303.303.585.484.972.633.445.172.918.267 1.62.3.993.047 1.34.052 3.626.052 2.227 0 2.59-.006 3.626-.052.704-.034 1.178-.128 1.617-.298.39-.152.674-.333.972-.632.304-.303.485-.585.634-.972.171-.444.266-.918.299-1.62.047-.993.052-1.34.052-3.626 0-2.227-.006-2.59-.052-3.626-.034-.704-.128-1.18-.299-1.618a2.619 2.619 0 0 0-.633-.972 2.595 2.595 0 0 0-.972-.634c-.44-.17-.914-.265-1.618-.298-.993-.047-1.34-.052-3.626-.052ZM12 3c2.445 0 2.75.009 3.71.054.958.045 1.61.195 2.185.419A4.388 4.388 0 0 1 19.49 4.51c.457.45.812.994 1.038 1.595.222.573.373 1.227.418 2.185.042.96.054 1.265.054 3.71 0 2.445-.009 2.75-.054 3.71-.045.958-.196 1.61-.419 2.185a4.395 4.395 0 0 1-1.037 1.595 4.44 4.44 0 0 1-1.595 1.038c-.573.222-1.227.373-2.185.418-.96.042-1.265.054-3.71.054-2.445 0-2.75-.009-3.71-.054-.958-.045-1.61-.196-2.185-.419A4.402 4.402 0 0 1 4.51 19.49a4.414 4.414 0 0 1-1.037-1.595c-.224-.573-.374-1.227-.419-2.185C3.012 14.75 3 14.445 3 12c0-2.445.009-2.75.054-3.71s.195-1.61.419-2.185A4.392 4.392 0 0 1 4.51 4.51c.45-.458.994-.812 1.595-1.037.574-.224 1.226-.374 2.185-.419C9.25 3.012 9.555 3 12 3Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="p-4 lg:col-span-2">
+              <form onsubmit="sendEmail(); reset(); return false;">
+                <input type="text" id="name" placeholder="Your Name" required >
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <input type="text" id="email" placeholder="Email ID">
+                <textarea name="" id="message" rows="4" placeholder="How can we help you?"></textarea>
+                <button type="submit"
+                class="mt-12 flex items-center justify-center text-sm lg:ml-auto max-lg:w-full rounded-lg px-4 py-3 tracking-wide text-white bg-blue-600 hover:bg-blue-700">
+                Send Message
+            </button>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+<section class="pt-8 pb-5" id="work">
+    <div class="w-full px-8 sm:px-8">
+        <div class="mb-6">
+            <!-- Heading with increased left margin on mobile and smaller devices -->
+            <h2
+                class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-2 sm:mb-4 ml-1 md:ml-0 lg:ml-0">
+                <span class="relative inline-block">Brands.</span>
+            </h2>
+            <div>
+                <!-- Paragraph with increased left margin on mobile and smaller devices -->
+                <p
+                    class="text-xs font-semibold tracking-wider text-[#FFC700] uppercase rounded-full mb-2 sm:mb-4 ml-1 md:ml-0 lg:ml-0">
+                    SUCCESSFUL COLLABORATIONS
+                </p>
+            </div>
+        </div>
+        <div class="container mt-8">
+            <!-- Apply flex and items-center on medium screens and larger -->
+            <div class="customer-logos slider flex flex-wrap justify-center md:items-center">
+                <div class="slide"><img src="https://i.postimg.cc/xTGNrGvy/1.png" alt="Logo 1"></div>
+                <div class="slide"><img src="https://i.postimg.cc/SKRnzwwD/2.png" alt="Logo 2"></div>
+                <div class="slide"><img src="https://i.postimg.cc/qRCg12BK/3.png" alt="Logo 3"></div>
+                <div class="slide"><img src="https://i.postimg.cc/Y2YhgNsK/4.png" alt="Logo 4"></div>
+                <div class="slide"><img src="https://i.postimg.cc/mDM2YRVN/5.png" alt="Logo 5"></div>
+                <div class="slide"><img src="https://i.postimg.cc/mg2D0v2B/6.png" alt="Logo 6"></div>
+                <div class="slide"><img src="https://i.postimg.cc/wTkM4qzw/7.png" alt="Logo 7"></div>
+                <div class="slide"><img src="https://i.postimg.cc/VN2k059k/8.png" alt="Logo 8"></div>
+                <div class="slide"><img src="https://i.postimg.cc/C1jSZ7Lc/9.png" alt="Logo 9"></div>
+                <div class="slide"><img src="https://i.postimg.cc/BvPq34W9/10.png" alt="Logo 10"></div>
+                <div class="slide"><img src="https://i.postimg.cc/wjG6n3GQ/11.png" alt="Logo 11"></div>
+                <div class="slide"><img src="https://i.postimg.cc/htjDCVpG/12.png" alt="Logo 12"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="mt-8 pt-9">
+        <div class="mx-auto w-full  px-4 xl:px-0">
+            <div class="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
+                <div class="md:w-[316px]">
+                    <p class="text-[18px] font-medium text-white">
+                        <span><img src="./Images/Boldreach-logo/boldreach_logo.png" class="h-20"
+                                alt="boldreach_logo Logo" /></span>
+                    </p>
+                    <p class="mt-[18px]  font-normal text-2xl text-white tracking-wider">We Are More than a <br>
+                        Digital Agency.
+                    </p>
+                </div>
+                <!-- Existing section for contact information -->
+                <div class="md:w-[316px]">
+                    <p class="text-white font-inter text-[24px] font-medium leading-normal">Contact Us</p>
+                    <!-- Added heading -->
+                    <div class="mt-[23px] flex">
+                        <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.8472 14.8554L16.4306 12.8764L16.4184 12.8707C16.1892 12.7727 15.939 12.7333 15.6907 12.7562C15.4424 12.7792 15.2037 12.8636 14.9963 13.002C14.9718 13.0181 14.9484 13.0357 14.9259 13.0545L12.6441 14.9998C11.1984 14.2976 9.70595 12.8164 9.00376 11.3895L10.9519 9.07294C10.9706 9.0495 10.9884 9.02606 11.0053 9.00075C11.1407 8.79384 11.2229 8.55667 11.2445 8.31035C11.2661 8.06402 11.2264 7.81618 11.1291 7.58887V7.57762L9.14438 3.15356C9.0157 2.85662 8.79444 2.60926 8.51362 2.44841C8.2328 2.28756 7.9075 2.22184 7.58626 2.26106C6.31592 2.42822 5.14986 3.05209 4.30588 4.01615C3.4619 4.98021 2.99771 6.21852 3.00001 7.49981C3.00001 14.9436 9.05626 20.9998 16.5 20.9998C17.7813 21.0021 19.0196 20.5379 19.9837 19.6939C20.9477 18.85 21.5716 17.6839 21.7388 16.4136C21.7781 16.0924 21.7125 15.7672 21.5518 15.4864C21.3911 15.2056 21.144 14.9843 20.8472 14.8554ZM16.5 19.4998C13.3185 19.4963 10.2682 18.2309 8.01856 15.9813C5.76888 13.7316 4.50348 10.6813 4.50001 7.49981C4.49648 6.58433 4.82631 5.69887 5.42789 5.00879C6.02947 4.3187 6.86167 3.87118 7.76907 3.74981C7.7687 3.75355 7.7687 3.75732 7.76907 3.76106L9.73782 8.16731L7.80001 10.4867C7.78034 10.5093 7.76247 10.5335 7.74657 10.5589C7.60549 10.7754 7.52273 11.0246 7.5063 11.2825C7.48988 11.5404 7.54035 11.7981 7.65282 12.0307C8.5022 13.7679 10.2525 15.5051 12.0084 16.3536C12.2428 16.465 12.502 16.5137 12.7608 16.495C13.0196 16.4762 13.2692 16.3907 13.485 16.2467C13.5091 16.2305 13.5322 16.2129 13.5544 16.1942L15.8334 14.2498L20.2397 16.2232C20.2397 16.2232 20.2472 16.2232 20.25 16.2232C20.1301 17.1319 19.6833 17.9658 18.9931 18.5689C18.3028 19.172 17.4166 19.5029 16.5 19.4998Z"
+                                    fill="#FFC700"></path>
+                            </svg>
+                        </div>
+                        <div class="ml-[18px]">
+                            <a href="tel:+919318319231" class="font-Inter text-[14px] font-medium text-white">+91
+                                9318319231 | +91 7982719381</a>
+                            <p class="font-Inter text-[12px] font-medium text-white">Support Number</p>
+                        </div>
+                    </div>
+                    <div class="mt-[23px] flex">
+                        <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                            <svg width="20" height="15" viewBox="0 0 20 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19 0H1C0.801088 0 0.610322 0.0790178 0.46967 0.21967C0.329018 0.360322 0.25 0.551088 0.25 0.75V13.5C0.25 13.8978 0.408035 14.2794 0.68934 14.5607C0.970644 14.842 1.35218 15 1.75 15H18.25C18.6478 15 19.0294 14.842 19.3107 14.5607C19.592 14.2794 19.75 13.8978 19.75 13.5V0.75C19.75 0.551088 19.671 0.360322 19.5303 0.21967C19.3897 0.0790178 19.1989 0 19 0ZM10 7.98281L2.92844 1.5H17.0716L10 7.98281ZM7.25406 7.5L1.75 12.5447V2.45531L7.25406 7.5ZM8.36406 8.51719L9.48906 9.55312C9.62743 9.68014 9.80842 9.75062 9.99625 9.75062C10.1841 9.75062 10.3651 9.68014 10.5034 9.55312L11.6284 8.51719L17.0659 13.5H2.92844L8.36406 8.51719ZM12.7459 7.5L18.25 2.45438V12.5456L12.7459 7.5Z"
+                                    fill="#FFC700"></path>
+                            </svg>
+                        </div>
+                        <div class="ml-[18px]">
+                            <a href="boldreach.in@gmail.com"
+                                class="font-Inter text-[14px] font-medium text-[#fff]">boldreach.in@gmail.com</a>
+                            <p class="font-Inter text-[12px] font-medium text-[#fff]">Support Email</p>
+                        </div>
+                    </div>
+                    <div class="mt-[23px] flex">
+                        <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                            <svg width="30px" height="41px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12.2848 18.9935C12.1567 19.0875 12.0373 19.1728 11.9282 19.2493C11.8118 19.1721 11.6827 19.0833 11.5427 18.9832C10.8826 18.5109 10.0265 17.8176 9.18338 16.9529C7.45402 15.1792 6 12.9151 6 10.5C6 7.18629 8.68629 4.5 12 4.5C15.3137 4.5 18 7.18629 18 10.5C18 12.8892 16.4819 15.1468 14.6893 16.9393C13.8196 17.8091 12.9444 18.5099 12.2848 18.9935ZM19.5 10.5C19.5 16.5 12 21 12 21C11.625 21 4.5 16.5 4.5 10.5C4.5 6.35786 7.85786 3 12 3C16.1421 3 19.5 6.35786 19.5 10.5ZM13.5 10.5C13.5 11.3284 12.8284 12 12 12C11.1716 12 10.5 11.3284 10.5 10.5C10.5 9.67157 11.1716 9 12 9C12.8284 9 13.5 9.67157 13.5 10.5ZM15 10.5C15 12.1569 13.6569 13.5 12 13.5C10.3431 13.5 9 12.1569 9 10.5C9 8.84315 10.3431 7.5 12 7.5C13.6569 7.5 15 8.84315 15 10.5Z"
+                                        fill="#FFC700"></path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="ml-[18px]"><a href="https://maps.app.goo.gl/vpCMQYfpXiFhS3vs5">
+                                <p class="font-Inter text-[14px] font-medium text-white">166, Sector 9, Gurugram,
+                                    Haryana</p>
+                                <p class="font-Inter text-[12px] font-medium text-white">Company Address</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mt-[23px] flex">
+                        <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                            <svg fill="#FFC700" width="20px" height="18px" viewBox="0 0 1024 1024"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="ml-[18px]"><a href="#">
+                                <p class="font-Inter text-[14px] font-medium text-white">Mon to Fri</p>
+                                <p class="font-Inter text-[12px] font-medium text-white">Working Days</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px]">
+                    <div class="">
+                        <p class="text-deutziawhite font-inter text-[24px] font-medium leading-normal">Services</p>
+                        <ul>
+                            <li class="mt-[15px]"><a
+                                    class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                    href="./form.html">Digital Marketing</a></li>
+                            <li class="mt-[15px]"><a
+                                    class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                    href="./form.html">Social Media Management</a></li>
+                            <li class="mt-[15px]"><a
+                                    class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                    href="./form.html">SEO (Search Engine Optimise)</a></li>
+                            <li class="mt-[15px]"><a
+                                    class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                    href="./form.html">Website Development</a></li>
+                            <li class="mt-[15px]"><a
+                                    class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                    href="./form.html">Handling Ads Campaigns</a></li>
+                            <li class="mt-[15px]"><a
+                                    class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                    href="./form.html">Professional Shoots</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <hr class="mt-[30px] text-white" />
+            <div class="flex items-center justify-center pb-4 pt-[4px] md:py-4">
+                <p class="text-[10px] font-normal text-white md:text-[12px]">
+                    © Copyright
+                    <!-- -->2024, Boldreach Consultancy.
+                    <!-- --> All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="./form.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+<script src="./script.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="./brand.js"></script>
+<script src="./top.js"></script>
+</body>
+</html>

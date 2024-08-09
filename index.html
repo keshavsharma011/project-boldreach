@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boldreach Consultancy</title>
+    <link rel="stylesheet" href="./brand.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <!-- Poppins Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet" />
+    <!-- Monsterrat Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="Icon" href="./Images/Boldreach-logo/favicon.ico" sizes="64x64" type="image/png">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .parallax {
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .social-icon {
+            color: #FFC700;
+        }
+
+        .social-icon:hover {
+            color: #FFF;
+        }
+    </style>
+</head>
+<body style="background-color: #000000;" class="font-[Poppins]">
+    <header id="home">
+        <nav class="bg-black mx-auto fixed top-0 left-0 w-full z-50" style="width: 100%;">
+            <div class="flex flex-wrap items-center justify-between p-4 mx-auto w-full" style="width: 95%;">
+                <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="./Images/Boldreach-logo/boldreach_logo.png" class="h-12" alt="boldreach_logo Logo" />
+                    <span
+                        class="tracking-wide font-bold font-[Montserrat] text-xl md:text-2xl lg:text-3xl text-white">Boldreach</span>
+                </a>
+                <button data-collapse-toggle="navbar-dropdown" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none"
+                    aria-controls="navbar-dropdown" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+                    <ul
+                        class="flex flex-col font-medium p-4 md:p-0 mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent h-full w-full rounded-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 md:backdrop-blur-none md:bg-transparent">
+                        <li>
+                            <a href="#home"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] block py-2 px-3 text-white rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] flex items-center justify-between w-full py-2 px-3 text-white rounded md:bg-transparent md:text-white md:border-0 md:p-0 md:w-auto dark:text-white dark:border-gray-700 block py-2 px-3 text-white rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                                aria-expanded="false">
+                                Contact
+                                <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg>
+                            </button>
+                            <!-- Dropdown menu -->
+                            <div id="dropdownNavbar"
+                                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                                <ul class="py-2 text-sm text-gray-700 dark:text-gray-400"
+                                    aria-labelledby="dropdownLargeButton">
+                                    <li>
+                                        <a href="./form.html" target="_blank"
+                                            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Enquire
+                                            Now</a>
+                                    </li>
+                                </ul>
+                                <div class="py-1">
+                                    <a href="https://maps.app.goo.gl/vpCMQYfpXiFhS3vs5" target="_blank"
+                                        class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Office</a>
+                                </div>
+                            </div>
+                            <!-- end -->
+                        </li>
+                        <li>
+                            <a href="#services"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] block py-2 px-3 text-white rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Services</a>
+                        </li>
+                        <li>
+                            <a href="#work"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] block py-2 px-3 text-white rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Work</a>
+                        </li>
+                        <li>
+                            <a href="#About"
+                                class="tracking-wider font-[Montserrat] text-[14px] md:text-[18px] block py-2 px-3 text-white rounded relative cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-[#FFC700] before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-[#FFC700] after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%] md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-white dark:md:hover:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="relative bg-gradient-to-br from-blue-900 to-indigo-800 text-white overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute inset-0 bg-cover bg-center parallax"
+            style="background-image: url('https://i.postimg.cc/pX3833N8/hero.jpg');"></div>
+
+        <div class="container mx-auto px-4 py-24 md:py-32 relative z-10">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <!-- Left Side: Company Info -->
+                <div class="w-full md:w-1/2 mb-12 md:mb-0">
+                    <h1 class="text-5xl tracking-wide md:text-6xl font-bold mb-6 leading-tight font-[Montserrat]">
+                        Boldreach<br>Consultancy
+                    </h1>
+                    <div class="mt-4 mb-4">
+                        <p id="typewriter" class="text-2xl font-[Montserrat]" style="min-height: 2.5rem;"></p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#services"
+                            class="font-[Montserrat] border-2 border-[#FFC700] text-white font-semibold px-8 py-3 hover:text-[#FFC700] transition duration-300 text-center">Getting
+                            Started</a>
+                    </div>
+                </div>
+
+                <!-- Right Side: Features -->
+                <div class="w-full md:w-1/2 md:pl-12">
+                    <div
+                        class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 shadow-2xl font-[Montserrat]">
+                        <h2 class="text-2xl font-semibold mb-6">Why to Trust Us?</h2>
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 mr-3 text-yellow-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                                <span>Proven success and happy clients.</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 mr-3 text-green-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z">
+                                    </path>
+                                </svg>
+                                <span>Expert team for quality and reliability.</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 mr-3 text-purple-400" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01">
+                                    </path>
+                                </svg>
+                                <span>Transparent processes and clear communication.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="carousel-grid">
+        <!-- Mobile Carousel Section -->
+        <section class="block lg:hidden">
+            <div class="container mx-auto px-4 py-8">
+                <div id="default-carousel" class="relative w-full h-80 md:h-96 overflow-hidden rounded-lg mb-8"
+                    data-carousel="slide">
+                    <!-- Carousel wrapper -->
+                    <div class="relative w-full h-full">
+                        <!-- Item 1 -->
+                        <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                            <img src="https://i.postimg.cc/ZKLnxgb4/concept.png"
+                                class="w-4/5 h-auto object-contain mx-auto w-full h-full md:h-full" alt="Concept">
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                            <img src="https://i.postimg.cc/qvb7936F/solution.png"
+                                class="w-4/5 h-auto object-contain mx-auto w-full h-full md:h-full" alt="Solution">
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="hidden duration-1000 ease-in-out" data-carousel-item>
+                            <img src="https://i.postimg.cc/kgX41cG8/idea.png"
+                                class="w-4/5 h-auto object-contain mx-auto w-full h-full md:h-full" alt="Idea">
+                        </div>
+                    </div>
+                    <!-- Slider indicators -->
+                    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                        <button type="button" class="w-3 h-3 rounded-full bg-white/50" aria-current="true"
+                            aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                        <button type="button" class="w-3 h-3 rounded-full bg-white/50" aria-current="false"
+                            aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                        <button type="button" class="w-3 h-3 rounded-full bg-white/50" aria-current="false"
+                            aria-label="Slide 3" data-carousel-slide-to="2"></button>
+                    </div>
+                    <!-- Slider controls -->
+                    <button type="button"
+                        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                        data-carousel-prev>
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white">
+                            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M5 1 1 5l4 4" />
+                            </svg>
+                            <span class="sr-only">Previous</span>
+                        </span>
+                    </button>
+                    <button type="button"
+                        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                        data-carousel-next>
+                        <span
+                            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white">
+                            <svg class="w-4 h-4 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m1 9 4-4-4-4" />
+                            </svg>
+                            <span class="sr-only">Next</span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grid Section for Larger Devices -->
+        <section class="hidden lg:block">
+            <div class="container mx-auto px-4 py-8">
+                <!-- Centered Grid Layout -->
+                <div class="flex flex-col items-center">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <a
+                            class="relative bg-[#080808] block p-6 rounded-lg border border-transparent transition-colors duration-300 ease-in-out hover:border-[#FFC700] cursor-pointer">
+                            <div class="my-4">
+                                <!-- Icon Image -->
+                                <img src="Images/Icons/Search.png" alt="Search Icon" class="w-7 h-8 mb-4">
+                                <h2 class="text-white text-xl font-bold pb-2">
+                                    <span class="border-b-2 border-[#FFC700]">Concept.</span>
+                                </h2>
+                                <p class="text-gray-300 py-1 text-sm sm:text-base">At Boldreach Consultancy, we
+                                    transform
+                                    visionary concepts into
+                                    innovative digital marketing strategies that drive your brand forward.</p>
+                            </div>
+                        </a>
+                        <a
+                            class="relative bg-[#080808] block p-6 rounded-lg border border-transparent transition-colors duration-300 ease-in-out hover:border-[#FFC700] cursor-pointer">
+                            <div class="my-4">
+                                <!-- Icon Image -->
+                                <img src="Images/Icons/Idea.png" alt="Idea Icon" class="w-7 h-8 mb-4">
+                                <h2 class="text-white text-xl font-bold pb-2">
+                                    <span class="border-b-2 border-[#FFC700]">Ideas.</span>
+                                </h2>
+                                <p class="text-gray-300 py-1 text-sm sm:text-base">Our expert team blends creativity
+                                    with
+                                    cutting-edge technology to
+                                    develop digital marketing ideas that captivate and engage your audience.</p>
+                            </div>
+                        </a>
+                        <a
+                            class="relative bg-[#080808] block p-6 rounded-lg border border-transparent transition-colors duration-300 ease-in-out hover:border-[#FFC700] cursor-pointer">
+                            <div class="my-4">
+                                <!-- Icon Image -->
+                                <img src="Images/Icons/Puzzle.png" alt="Puzzle Icon" class="w-7 h-8 mb-4">
+                                <h2 class="text-white text-xl font-bold pb-2">
+                                    <span class="border-b-2 border-[#FFC700]">Solution.</span>
+                                </h2>
+                                <p class="text-gray-300 py-1 text-sm sm:text-base">We deliver practical digital
+                                    marketing
+                                    solutions tailored to your
+                                    needs, ensuring your business thrives in the digital landscape.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="services py-8" id="services">
+        <div class="px-0 mx-0 sm:px-4 md:px-6 lg:px-8">
+            <div class="mb-6">
+                <!-- Heading with increased left margin on mobile and smaller devices -->
+                <h2
+                    class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-2 sm:mb-4 ml-1 md:ml-0 lg:ml-0">
+                    <span class="relative inline-block">Services.</span>
+                </h2>
+                <div>
+                    <!-- Paragraph with increased left margin on mobile and smaller devices -->
+                    <p
+                        class="text-xs font-semibold tracking-wider text-[#FFC700] uppercase rounded-full mb-2 sm:mb-4 ml-1 md:ml-0 lg:ml-0">
+                        OUR SERVICES FOR CLIENT
+                    </p>
+                </div>
+            </div>
+            <div class="grid gap-4 sm:gap-5 md:gap-6 lg:gap-8 grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Card 1 -->
+                <div
+                    class="relative p-6 sm:p-6 lg:p-8 aspect-w-1 aspect-h-1 bg-[#E0B001] shadow-sm hover:-translate-y-2 flex flex-col items-center ml-1 md:ml-0 lg:ml-0">
+                    <img src="Images/Icons/Test Account.png" alt="Social Media Management Icon"
+                        class="w-8 h-8 sm:w-12 sm:h-12 mb-2 sm:mb-3">
+                    <h6
+                        class="text-xs sm:text-sm md:text-base lg:text-lg mb-1 sm:mb-2 font-bold leading-4 sm:leading-5 text-center">
+                        Social Media Management</h6>
+                    <p class="text-[10px] sm:text-xs md:text-sm text-gray-900 hidden sm:block">
+                        At Boldreach Consultancy, we create and execute comprehensive strategies that engage your
+                        audience,
+                        build your community, and our team leverages the latest digital marketing techniques for
+                        maximum impact.
+                    </p>
+                    <span class="absolute inset-x-0 bottom-0 h-1 sm:h-2 bg-white"></span>
+                </div>
+                <!-- Card 2 -->
+                <div
+                    class="relative p-6 sm:p-6 lg:p-8 aspect-w-1 aspect-h-1 bg-[#151414] shadow-sm hover:-translate-y-2 flex flex-col items-center mr-1 md:mr-0 lg:mr-0">
+                    <img src="Images/Icons/Internet.png" alt="Website Development Icon"
+                        class="w-8 h-8 sm:w-12 sm:h-12 mb-2 sm:mb-3">
+                    <h6
+                        class="text-xs sm:text-sm md:text-base lg:text-lg mb-1 sm:mb-2 font-bold leading-4 sm:leading-5 text-center text-white">
+                        Website Development</h6>
+                    <p class="text-[10px] sm:text-xs md:text-sm text-white hidden sm:block">
+                        Boldreach Consultancy offers top-notch Website Development and UI/UX Design services to bring
+                        your
+                        vision to life. Our skilled developers and designers work collaboratively to create visually
+                        stunning websites that provide an exceptional user experience.
+                    </p>
+                    <span class="absolute inset-x-0 bottom-0 h-1 sm:h-2 bg-white"></span>
+                </div>
+                <!-- Card 3 -->
+                <div
+                    class="relative p-6 sm:p-6 lg:p-8 aspect-w-1 aspect-h-1 bg-[#E0B001] shadow-sm hover:-translate-y-2 flex flex-col items-center ml-1 md:ml-0 lg:ml-0">
+                    <img src="Images/Icons/Video Call.png" alt="Professional Shoots Icon"
+                        class="w-8 h-8 sm:w-12 sm:h-12 mb-2 sm:mb-3">
+                    <h6
+                        class="text-xs sm:text-sm md:text-base lg:text-lg mb-1 sm:mb-2 font-bold leading-4 sm:leading-5 text-center">
+                        Professional Shoots</h6>
+                    <p class="text-[10px] sm:text-xs md:text-sm text-gray-900 hidden sm:block">
+                        Capture your brand's essence with our Professional Shoots at Boldreach Consultancy. Our team of
+                        experienced photographers and videographers delivers high-quality visuals that resonate with
+                        your
+                        audience.
+                    </p>
+                    <span class="absolute inset-x-0 bottom-0 h-1 sm:h-2 bg-white"></span>
+                </div>
+                <!-- Card 4 -->
+                <div
+                    class="relative p-6 sm:p-6 lg:p-8 aspect-w-1 aspect-h-1 bg-[#151414] shadow-sm hover:-translate-y-2 flex flex-col items-center mr-1 md:mr-0 lg:mr-0">
+                    <img src="Images/Icons/Commercial.png" alt="Ad Campaigns Icon"
+                        class="w-8 h-8 sm:w-12 sm:h-12 mb-2 sm:mb-3">
+                    <h6
+                        class="text-xs sm:text-sm md:text-base lg:text-lg mb-1 sm:mb-2 font-bold leading-4 sm:leading-5 text-center text-white">
+                        Managing Ad Campaigns</h6>
+                    <p class="text-[10px] sm:text-xs md:text-sm text-white hidden sm:block">
+                        Maximize your return on investment with Boldreach’s Ad Campaign Management services. We create,
+                        manage, and optimize advertising campaigns across various platforms to ensure they reach your
+                        target
+                        audience effectively.
+                    </p>
+                    <span class="absolute inset-x-0 bottom-0 h-1 sm:h-2 bg-white"></span>
+                </div>
+                <!-- Card 5 -->
+                <div
+                    class="relative p-6 sm:p-6 lg:p-8 aspect-w-1 aspect-h-1 bg-[#E0B001] shadow-sm hover:-translate-y-2 flex flex-col items-center ml-1 md:ml-0 lg:ml-0">
+                    <img src="Images/Icons/Paint Palette.png" alt="Graphic Designing Icon"
+                        class="w-8 h-8 sm:w-12 sm:h-12 mb-2 sm:mb-3">
+                    <h6
+                        class="text-xs sm:text-sm md:text-base lg:text-lg mb-1 sm:mb-2 font-bold leading-4 sm:leading-5 text-center">
+                        Graphic Designing</h6>
+                    <p class="text-[10px] sm:text-xs md:text-sm text-gray-900 hidden sm:block">
+                        Our creative team produces eye-catching designs that align with your brand identity and digital
+                        marketing goals. From logos and brochures to social media graphics and infographics, we provide
+                        designs that make a lasting impression.
+                    </p>
+                    <span class="absolute inset-x-0 bottom-0 h-1 sm:h-2 bg-white"></span>
+                </div>
+                <!-- Card 6 -->
+                <div
+                    class="relative p-6 sm:p-6 lg:p-8 aspect-w-1 aspect-h-1 bg-[#151414] shadow-sm hover:-translate-y-2 flex flex-col items-center mr-1 md:mr-0 lg:mr-0">
+                    <img src="Images/Icons/Google Web Search.png" alt="SEO Icon"
+                        class="w-8 h-8 sm:w-12 sm:h-12 mb-2 sm:mb-3">
+                    <h6
+                        class="text-xs sm:text-sm md:text-base lg:text-lg mb-1 sm:mb-2 font-bold leading-4 sm:leading-5 text-center text-white">
+                        Search Engine Optimization</h6>
+                    <p class="text-[10px] sm:text-xs md:text-sm text-white hidden sm:block">
+                        Improve your online visibility with Boldreach Consultancy's SEO services. Our comprehensive SEO
+                        strategies are designed to boost your website's ranking on search engines, driving organic
+                        traffic
+                        and increasing your reach.
+                    </p>
+                    <span class="absolute inset-x-0 bottom-0 h-1 sm:h-2 bg-white"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-8 pb-5" id="work">
+        <div class="w-full px-8 sm:px-8">
+            <div class="mb-6">
+                <!-- Heading with increased left margin on mobile and smaller devices -->
+                <h2
+                    class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-2 sm:mb-4 ml-1 md:ml-0 lg:ml-0">
+                    <span class="relative inline-block">Brands.</span>
+                </h2>
+                <div>
+                    <!-- Paragraph with increased left margin on mobile and smaller devices -->
+                    <p
+                        class="text-xs font-semibold tracking-wider text-[#FFC700] uppercase rounded-full mb-2 sm:mb-4 ml-1 md:ml-0 lg:ml-0">
+                        SUCCESSFUL COLLABORATIONS
+                    </p>
+                </div>
+            </div>
+            <div class="container mt-8">
+                <!-- Apply flex and items-center on medium screens and larger -->
+                <div class="customer-logos slider flex flex-wrap justify-center md:items-center">
+                    <div class="slide"><img src="https://i.postimg.cc/xTGNrGvy/1.png" alt="Logo 1"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/SKRnzwwD/2.png" alt="Logo 2"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/qRCg12BK/3.png" alt="Logo 3"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/Y2YhgNsK/4.png" alt="Logo 4"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/mDM2YRVN/5.png" alt="Logo 5"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/mg2D0v2B/6.png" alt="Logo 6"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/wTkM4qzw/7.png" alt="Logo 7"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/VN2k059k/8.png" alt="Logo 8"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/C1jSZ7Lc/9.png" alt="Logo 9"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/BvPq34W9/10.png" alt="Logo 10"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/wjG6n3GQ/11.png" alt="Logo 11"></div>
+                    <div class="slide"><img src="https://i.postimg.cc/htjDCVpG/12.png" alt="Logo 12"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-8 pb-5" id="About">
+        <div class="w-full px-8 sm:px-8">
+            <div class="mb-6">
+                <!-- Heading with increased left margin on mobile and smaller devices -->
+                <h2
+                    class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-white mb-2 sm:mb-4 ml-1 md:ml-0 lg:ml-0">
+                    <span class="relative inline-block">About Us.</span>
+                </h2>
+                <div>
+                    <!-- Paragraph with increased left margin on mobile and smaller devices -->
+                    <p
+                        class="text-xs font-semibold tracking-wider text-[#FFC700] uppercase rounded-full mb-2 sm:mb-4 ml-1 md:ml-0 lg:ml-0">
+                        WE ARE MORE THAN A DIGITAL AGENCY.
+                    </p>
+                </div>
+            </div>
+            <div
+                class=" mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
+                <a href="#" target="_blank"
+                    class="relative flex flex-col items-start justify-between p-6 overflow-hidden group pl-4 my-2 border-l-2 border-[#FFC700] text-white">
+                    <div class="flex items-center justify-between w-full mb-4">
+                        <h3 class="text-2xl md:text-3xl font-normal">
+                            Who We Are ?
+                        </h3>
+                    </div>
+                    <span class="relative text-xs md:text-sm text-white font-normal">Boldreach Consultancy is a <br>
+                        premier digital marketing agency <br> dedicated to transforming brands <br> with innovative
+                        strategies.</span>
+                </a>
+                <a href="#" target="_blank"
+                    class="relative flex flex-col items-start justify-between p-6 overflow-hidden group pl-4 my-2 border-l-2 border-[#FFC700] text-white">
+                    <div class="flex items-center justify-between w-full mb-4">
+                        <h3 class="text-2xl md:text-3xl font-normal">
+                            Our Philosophy
+                        </h3>
+                    </div>
+                    <span class="relative text-xs md:text-sm text-white font-normal">At Boldreach Consultancy, our <br>
+                        philosophy centers on creativity, <br> integrity and result-driven digital <br> marketing
+                        solutions.</span>
+                </a>
+                <a href="#" target="_blank"
+                    class="relative flex flex-col items-start justify-between p-6 overflow-hidden group pl-4 my-2 border-l-2 border-[#FFC700] text-white">
+                    <div class="flex items-center justify-between w-full mb-4">
+                        <h3 class="text-2xl md:text-3xl font-normal">
+                            How We Work ?
+                        </h3>
+                    </div>
+                    <span class="relative text-xs md:text-sm text-white font-normal">We collaborate closely with our
+                        <br> clients, combining insights with <br> industry expertise to craft customized <br> digital
+                        marketing campaigns.</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section
+        class="relative bg-gradient-to-br from-blue-900 to-indigo-800 text-white overflow-hidden flex items-center justify-center ">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute inset-0 bg-cover bg-center parallax"
+            style="background-image: url('https://i.postimg.cc/D0bHNyRm/website-data3.png');"></div>
+
+        <div
+            class="container mx-auto px-4 py-24 md:py-32 relative z-10 flex flex-col items-center justify-center text-center space-y-14">
+            <div>
+                <ul class="flex justify-center mt-5 space-x-5">
+                    <li>
+                        <a href="https://m.facebook.com/100094887142572" target="_blank" class="social-icon">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/boldreach.in/" target="_blank" class="social-icon">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd"
+                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/BoldReach_in?t=h3j1wvHf1jl0wq7Bc4rnyg&s=09" target="_blank" class="social-icon">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/@boldreach-1?si=Nfyay2L43eAgLQvf" target="_blank" class="social-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-8">
+                                <path fill="currentColor"
+                                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex flex-col items-center space-y-8">
+                <!-- Left Side: Company Info -->
+                <div class="w-full mb-12 md:mb-0">
+                    <h1 class="text-3xl tracking-wide md:text-3xl font-bold mb-6 leading-tight font-[Montserrat]">
+                        HAVE ANY PROJECT IN MIND?
+                    </h1>
+
+                    <div class="space-y-4 sm:space-y-0 sm:space-x-4 mt-14">
+                        <a href="./form.html" target="_blank"
+                            class="font-[Montserrat] border-2 border-[#FFC700] text-white font-semibold px-8 py-3 hover:text-[#FFC700] transition duration-300 text-center">MAKE
+                            ENQUIRY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="mt-8 pt-9">
+            <div class="mx-auto w-full  px-4 xl:px-0">
+                <div class="flex flex-col justify-between sm:px-[18px] md:flex-row md:px-10">
+                    <div class="md:w-[316px]">
+                        <p class="text-[18px] font-medium text-white">
+                            <span><img src="./Images/Boldreach-logo/boldreach_logo.png" class="h-20"
+                                    alt="boldreach_logo Logo" /></span>
+                        </p>
+                        <p class="mt-[18px]  font-normal text-2xl text-white tracking-wider">We Are More than a <br>
+                            Digital Agency.
+                        </p>
+                    </div>
+                    <!-- Existing section for contact information -->
+                    <div class="md:w-[316px]">
+                        <p class="text-white font-inter text-[24px] font-medium leading-normal">Contact Us</p>
+                        <!-- Added heading -->
+                        <div class="mt-[23px] flex">
+                            <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M20.8472 14.8554L16.4306 12.8764L16.4184 12.8707C16.1892 12.7727 15.939 12.7333 15.6907 12.7562C15.4424 12.7792 15.2037 12.8636 14.9963 13.002C14.9718 13.0181 14.9484 13.0357 14.9259 13.0545L12.6441 14.9998C11.1984 14.2976 9.70595 12.8164 9.00376 11.3895L10.9519 9.07294C10.9706 9.0495 10.9884 9.02606 11.0053 9.00075C11.1407 8.79384 11.2229 8.55667 11.2445 8.31035C11.2661 8.06402 11.2264 7.81618 11.1291 7.58887V7.57762L9.14438 3.15356C9.0157 2.85662 8.79444 2.60926 8.51362 2.44841C8.2328 2.28756 7.9075 2.22184 7.58626 2.26106C6.31592 2.42822 5.14986 3.05209 4.30588 4.01615C3.4619 4.98021 2.99771 6.21852 3.00001 7.49981C3.00001 14.9436 9.05626 20.9998 16.5 20.9998C17.7813 21.0021 19.0196 20.5379 19.9837 19.6939C20.9477 18.85 21.5716 17.6839 21.7388 16.4136C21.7781 16.0924 21.7125 15.7672 21.5518 15.4864C21.3911 15.2056 21.144 14.9843 20.8472 14.8554ZM16.5 19.4998C13.3185 19.4963 10.2682 18.2309 8.01856 15.9813C5.76888 13.7316 4.50348 10.6813 4.50001 7.49981C4.49648 6.58433 4.82631 5.69887 5.42789 5.00879C6.02947 4.3187 6.86167 3.87118 7.76907 3.74981C7.7687 3.75355 7.7687 3.75732 7.76907 3.76106L9.73782 8.16731L7.80001 10.4867C7.78034 10.5093 7.76247 10.5335 7.74657 10.5589C7.60549 10.7754 7.52273 11.0246 7.5063 11.2825C7.48988 11.5404 7.54035 11.7981 7.65282 12.0307C8.5022 13.7679 10.2525 15.5051 12.0084 16.3536C12.2428 16.465 12.502 16.5137 12.7608 16.495C13.0196 16.4762 13.2692 16.3907 13.485 16.2467C13.5091 16.2305 13.5322 16.2129 13.5544 16.1942L15.8334 14.2498L20.2397 16.2232C20.2397 16.2232 20.2472 16.2232 20.25 16.2232C20.1301 17.1319 19.6833 17.9658 18.9931 18.5689C18.3028 19.172 17.4166 19.5029 16.5 19.4998Z"
+                                        fill="#FFC700"></path>
+                                </svg>
+                            </div>
+                            <div class="ml-[18px]">
+                                <a href="tel:+919318319231" class="font-Inter text-[14px] font-medium text-white" target="_blank">+91
+                                    9318319231 | +91 7982719381</a>
+                                <p class="font-Inter text-[12px] font-medium text-white">Support Number</p>
+                            </div>
+                        </div>
+                        <div class="mt-[23px] flex">
+                            <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                                <svg width="20" height="15" viewBox="0 0 20 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 0H1C0.801088 0 0.610322 0.0790178 0.46967 0.21967C0.329018 0.360322 0.25 0.551088 0.25 0.75V13.5C0.25 13.8978 0.408035 14.2794 0.68934 14.5607C0.970644 14.842 1.35218 15 1.75 15H18.25C18.6478 15 19.0294 14.842 19.3107 14.5607C19.592 14.2794 19.75 13.8978 19.75 13.5V0.75C19.75 0.551088 19.671 0.360322 19.5303 0.21967C19.3897 0.0790178 19.1989 0 19 0ZM10 7.98281L2.92844 1.5H17.0716L10 7.98281ZM7.25406 7.5L1.75 12.5447V2.45531L7.25406 7.5ZM8.36406 8.51719L9.48906 9.55312C9.62743 9.68014 9.80842 9.75062 9.99625 9.75062C10.1841 9.75062 10.3651 9.68014 10.5034 9.55312L11.6284 8.51719L17.0659 13.5H2.92844L8.36406 8.51719ZM12.7459 7.5L18.25 2.45438V12.5456L12.7459 7.5Z"
+                                        fill="#FFC700"></path>
+                                </svg>
+                            </div>
+                            <div class="ml-[18px]">
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=boldreach.in@gmail.com" target="_blank"
+                                    class="font-Inter text-[14px] font-medium text-[#fff]">boldreach.in@gmail.com</a>
+                                <p class="font-Inter text-[12px] font-medium text-[#fff]">Support Email</p>
+                            </div>
+                        </div>
+                        <div class="mt-[23px] flex">
+                            <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                                <svg width="30px" height="41px" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M12.2848 18.9935C12.1567 19.0875 12.0373 19.1728 11.9282 19.2493C11.8118 19.1721 11.6827 19.0833 11.5427 18.9832C10.8826 18.5109 10.0265 17.8176 9.18338 16.9529C7.45402 15.1792 6 12.9151 6 10.5C6 7.18629 8.68629 4.5 12 4.5C15.3137 4.5 18 7.18629 18 10.5C18 12.8892 16.4819 15.1468 14.6893 16.9393C13.8196 17.8091 12.9444 18.5099 12.2848 18.9935ZM19.5 10.5C19.5 16.5 12 21 12 21C11.625 21 4.5 16.5 4.5 10.5C4.5 6.35786 7.85786 3 12 3C16.1421 3 19.5 6.35786 19.5 10.5ZM13.5 10.5C13.5 11.3284 12.8284 12 12 12C11.1716 12 10.5 11.3284 10.5 10.5C10.5 9.67157 11.1716 9 12 9C12.8284 9 13.5 9.67157 13.5 10.5ZM15 10.5C15 12.1569 13.6569 13.5 12 13.5C10.3431 13.5 9 12.1569 9 10.5C9 8.84315 10.3431 7.5 12 7.5C13.6569 7.5 15 8.84315 15 10.5Z"
+                                            fill="#FFC700"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="ml-[18px]"><a href="https://maps.app.goo.gl/vpCMQYfpXiFhS3vs5" target="_blank">
+                                    <p class="font-Inter text-[14px] font-medium text-white">166, Sector 9, Gurugram,
+                                        Haryana</p>
+                                    <p class="font-Inter text-[12px] font-medium text-white">Company Address</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mt-[23px] flex">
+                            <div class="flex h-[38px] w-[38px] items-center justify-center rounded-[75%]">
+                                <svg fill="#FFC700" width="20px" height="18px" viewBox="0 0 1024 1024"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <path
+                                            d="M960 95.888l-256.224.001V32.113c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76h-256v-63.76c0-17.68-14.32-32-32-32s-32 14.32-32 32v63.76H64c-35.344 0-64 28.656-64 64v800c0 35.343 28.656 64 64 64h896c35.344 0 64-28.657 64-64v-800c0-35.329-28.656-63.985-64-63.985zm0 863.985H64v-800h255.776v32.24c0 17.679 14.32 32 32 32s32-14.321 32-32v-32.224h256v32.24c0 17.68 14.32 32 32 32s32-14.32 32-32v-32.24H960v799.984zM736 511.888h64c17.664 0 32-14.336 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32zm0 255.984h64c17.664 0 32-14.32 32-32v-64c0-17.664-14.336-32-32-32h-64c-17.664 0-32 14.336-32 32v64c0 17.696 14.336 32 32 32zm-192-128h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32zm0-255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm-256 0h-64c-17.664 0-32 14.336-32 32v64c0 17.664 14.336 32 32 32h64c17.664 0 32-14.336 32-32v-64c0-17.68-14.336-32-32-32zm0 255.984h-64c-17.664 0-32 14.336-32 32v64c0 17.68 14.336 32 32 32h64c17.664 0 32-14.32 32-32v-64c0-17.648-14.336-32-32-32z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="ml-[18px]"><a href="#">
+                                    <p class="font-Inter text-[14px] font-medium text-white">Mon to Fri</p>
+                                    <p class="font-Inter text-[12px] font-medium text-white">Working Days</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="mt-6 flex w-full flex-col justify-between text-white sm:flex-row md:mt-0 md:max-w-[341px]">
+                        <div class="">
+                            <p class="text-deutziawhite font-inter text-[24px] font-medium leading-normal">Services</p>
+                            <ul>
+                                <li class="mt-[15px]"><a
+                                        class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                        href="./form.html" target="_blank">Digital Marketing</a></li>
+                                <li class="mt-[15px]"><a
+                                        class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                        href="./form.html" target="_blank">Social Media Management</a></li>
+                                <li class="mt-[15px]"><a
+                                        class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                        href="./form.html" target="_blank">SEO (Search Engine Optimise)</a></li>
+                                <li class="mt-[15px]"><a
+                                        class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                        href="./form.html" target="_blank">Website Development</a></li>
+                                <li class="mt-[15px]"><a
+                                        class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                        href="./form.html" target="_blank">Handling Ads Campaigns</a></li>
+                                <li class="mt-[15px]"><a
+                                        class="tracking-wider text-deutziawhite hover:text-deutziawhite/80 font-inter text-[15px] font-normal hover:font-semibold"
+                                        href="./form.html" target="_blank">Professional Shoots</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <hr class="mt-[30px] text-white" />
+                <div class="flex items-center justify-center pb-4 pt-[4px] md:py-4">
+                    <p class="text-[10px] font-normal text-white md:text-[12px]">
+                        © Copyright
+                        <!-- -->2024, Boldreach Consultancy.
+                        <!-- --> All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+        class="hidden fixed z-50 bottom-10 right-10 p-4 border-0 w-14 h-14 rounded-full shadow-md bg-[#FFC700] text-white text-lg font-semibold transition-colors duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+            <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z" />
+        </svg>
+        <span class="sr-only">Go to top</span>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="./brand.js"></script>
+    <script src="./top.js"></script>
+</body>
+
+</html>
